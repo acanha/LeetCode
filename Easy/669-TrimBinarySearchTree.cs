@@ -6,7 +6,8 @@ using System.Text;
 public class Problem669
 {
     /*
-        Given a binary search tree and the lowest and highest boundaries as L and R, trim the tree so that all its elements lies in [L, R] (R >= L). You might need to change the root of the tree, so the result should return the new root of the trimmed binary search tree.
+        Given a binary search tree and the lowest and highest boundaries as L and R, trim the tree so that all its elements lies in [L, R] (R >= L). 
+        You might need to change the root of the tree, so the result should return the new root of the trimmed binary search tree.
 
         Example 1:
         Input: 
@@ -63,13 +64,43 @@ public class Problem669
                 newNode = new TreeNode(root.right.val);
                 newNode.left  = Solution(root.right.left, L, R);
                 newNode.right = Solution(root.right.right, L, R);
-    
+                
+                if (newNode.val < L || newNode.val > R)
+                {
+                    if (newNode.left == null && newNode.right == null)
+                        newNode = null;
+                    else if (newNode.left != null && newNode.right == null)
+                        newNode = newNode.left;
+                    else if (newNode.left == null && newNode.right != null)
+                        newNode = newNode.right;
+                    else if (newNode.left != null && newNode.right != null)
+                    {
+                        newNode = newNode.left;
+                        newNode.left = newNode.right;
+                    }
+                }
+
             }
             else if(root.val > R && root.left !=  null)
             {
                 newNode = new TreeNode(root.left.val);
                 newNode.left  = Solution(root.left.left, L, R);
                 newNode.right = Solution(root.left.right, L, R);
+                
+                if (newNode.val < L || newNode.val > R)
+                {
+                    if (newNode.left == null && newNode.right == null)
+                        newNode = null;
+                    else if (newNode.left != null && newNode.right == null)
+                        newNode = newNode.left;
+                    else if (newNode.left == null && newNode.right != null)
+                        newNode = newNode.right;
+                    else if (newNode.left != null && newNode.right != null)
+                    {
+                        newNode = newNode.left;
+                        newNode.left = newNode.right;
+                    }
+                }
             }
         }
 

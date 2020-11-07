@@ -19,9 +19,7 @@ using System.Text;
     The primary diagonal is: 00  11  22  33  44
     The secondary diagonal is : 04  13  22  31  40
 
-    We can use two variables i,j and increment them until the lenght of the matrix.
-
-
+    We can use two variables i,j and increment i until the lenght of the matrix while decrementing j.
 
  */
 

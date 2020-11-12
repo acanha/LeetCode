@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-/*
+﻿/*
     Design a parking system for a parking lot.
     The parking lot has three kinds of parking spaces: big, medium, and small, with a fixed number of slots for each size.
 

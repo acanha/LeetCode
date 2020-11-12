@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-/*
+﻿/*
     Given a square matrix mat, return the sum of the matrix diagonals.
 
     Only include the sum of all the elements on the primary diagonal and 

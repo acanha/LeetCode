@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Linq;
 
 /*
     Given an array of positive integers arr, calculate the sum of all possible odd-length subarrays.

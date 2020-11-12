@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Linq;
 
 /*
     You're given strings J representing the types of stones that are jewels, and S representing the stones you have.  

@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 /*
     Given an array of integers arr, and three integers a, b and c. You need to find the number of good triplets.

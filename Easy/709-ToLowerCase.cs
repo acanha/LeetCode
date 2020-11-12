@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-// Implement function ToLowerCase() that has a string parameter str, and returns the same string in lowercase.
+﻿// Implement function ToLowerCase() that has a string parameter str, and returns the same string in lowercase.
 
 public class Problem709
 {

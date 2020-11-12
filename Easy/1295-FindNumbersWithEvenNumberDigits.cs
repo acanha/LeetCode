@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Linq;
 
 // Given an array nums of integers, return how many of them contain an even number of digits.
 

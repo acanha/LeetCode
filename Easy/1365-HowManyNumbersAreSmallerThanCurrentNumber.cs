@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Linq;
 
 /*
     Given the array nums, for each nums[i] find out how many numbers in the array are smaller than it. 

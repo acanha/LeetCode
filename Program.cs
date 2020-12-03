@@ -6,6 +6,8 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
+            var p = new Problem942();
+            p.Solution("IDID");
             var problem = new Problem669();
 
             //[3,1,4,null,2]
